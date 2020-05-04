@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Start server
 const server = app.listen(3000, function() {
-  console.log('Server started on port 3333');
+  console.log('Server started: Port 3333');
 });
 
 // websockets
